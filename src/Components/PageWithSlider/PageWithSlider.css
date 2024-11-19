@@ -1,0 +1,113 @@
+.page-with-slider {
+  background: transparent;
+  position: relative;
+  padding: 20px;
+  overflow: hidden;
+}
+/* Content Section */
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1b1c28;
+  border-radius: 0px 20px 20px 20px;
+  border: 1px solid;
+  padding: 60px;
+  position: relative;
+  z-index: 2;
+  margin-top: 100px;
+}
+.text-content {
+  width: 50%;
+}
+.overline {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #7780a1;
+  margin-bottom: 10px;
+  font-family: Inter;
+  line-height: 18.15px;
+  letter-spacing: 3px;
+}
+.headline {
+  font-family: "Sora", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 20px;
+  line-height: 55.2px;
+  letter-spacing: 0.2px;
+}
+.description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #c5c6d0;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.text-content .button {
+  margin-right: 1rem;
+  margin-top: 25px;
+}
+.text-content .get-started {
+  padding: 16px 24px 16px 24px;
+  width: 150px;
+  gap: 10px;
+  border-radius: 12px;
+  color: #fff;
+  background: linear-gradient(104.42deg, #4745d0 0%, #2a27c9 60.23%);
+}
+.text-content .learn-more {
+  border: 2px solid #262840;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border-radius: 12px;
+  background: transparent;
+  color: #7780a1;
+}
+.avatars {
+  position: relative;
+  width: 40%;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+}
+.avatar:nth-child(1) {
+  top: -200px;
+  left: 70px;
+}
+.avatar:nth-child(2) {
+  top: -20px;
+  left: 100px;
+}
+.avatar:nth-child(3) {
+  top: -40px;
+  left: 300px;
+}
+.avatar:nth-child(4) {
+  top: 130px;
+  left: -50px;
+}
+.slider {
+  margin-top: 60px;
+  display: flex;
+  overflow: hidden;
+  padding: 20px 0;
+  background: transparent;
+  white-space: nowrap;
+}
+.slider-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}

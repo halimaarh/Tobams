@@ -1,0 +1,136 @@
+.popular-auctions {
+  background: transparent;
+  margin-top: 60px;
+  padding: 30px;
+}
+/* Header Section */
+.header-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.header-section .overline {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #7780a1;
+  line-height: 18.15px;
+}
+.header-section .main-heading {
+  font-family: "Sora", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 20px;
+  line-height: 45.36px;
+  letter-spacing: 0.2px;
+}
+/* Category Section */
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.category-box {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7780a1;
+  border: 2px solid #262840;
+  background: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.category-box:hover {
+  background-color: #f1f1f1;
+}
+.category-box.active {
+  border: 2px solid #7780a1;
+}
+.auctions {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  margin-bottom: 70px;
+}
+/* Show More Button */
+.show-more {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 30px;
+  border: 2px solid #262840;
+  color: #7780a1;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  font-family: "Sora";
+  line-height: 20.16px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.show-more:hover {
+  background-color: #155d8e;
+}
+.auction-divider {
+  margin-top: 100px;
+  border: 1px solid #262840;
+  margin-bottom: 100px;
+}
+/* Footer Stats */
+.footer-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+.stat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  padding: 20px;
+}
+.stat-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stat-number {
+  font-family: "Sora";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 55.2px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #fff;
+}
+.stat-text {
+  margin-top: 15px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #7780a1;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .categories {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

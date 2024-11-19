@@ -1,0 +1,78 @@
+.auction-card {
+  background: transparent;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.auction-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.auction-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "Sora";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.16px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #fff;
+}
+.auction-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.auction-details .time {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.20000000298023224px;
+  color: #fff;
+  margin-right: 40px;
+}
+.price {
+  color: #28a745;
+  background: #514cff26;
+  padding: 6px 10px 6px 10px;
+  gap: 10px;
+  border-radius: 4px;
+
+  font-family: "Sora";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16.38px;
+  letter-spacing: 0.2px;
+  color: #514cff;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 15px 0;
+}
+
+.watching {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+.watching p {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #7780a1;
+}

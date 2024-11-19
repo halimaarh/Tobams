@@ -1,0 +1,65 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 30px;
+  background: transparent;
+}
+.logo {
+  width: 150px;
+  height: auto;
+  max-height: 100px;
+  object-fit: contain;
+}
+/* Menu Styling */
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  margin-left: 200px;
+}
+.menu li {
+  cursor: pointer;
+  color: #7780a1;
+  font-weight: 600;
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+/* Button Styling */
+.Button {
+  display: flex;
+  gap: 16px;
+}
+.contact-btn {
+  width: 116px;
+  padding: 13px 22px;
+  border-radius: 12px;
+  border: 2px solid #262840;
+  font-weight: 600;
+  font-size: 1rem;
+  background: transparent;
+  color: #7780a1;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.contact-btn:hover {
+  background: #262840;
+  color: white;
+}
+.account-btn {
+  font-weight: 600;
+  font-size: 1rem;
+  width: 145px;
+  padding: 13px 22px;
+  border-radius: 12px;
+  background: linear-gradient(104.42deg, #4745d0 0%, #2a27c9 60.23%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.account-btn:hover {
+  transform: scale(1.05);
+}

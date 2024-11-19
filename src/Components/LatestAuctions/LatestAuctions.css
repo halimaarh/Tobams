@@ -1,0 +1,125 @@
+.latest-auctions {
+  max-width: 1200px;
+  margin-top: 70px;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+  color: #fff;
+  font-family: Sora;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45.36px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-left: 340px;
+}
+.auction-container {
+  display: flex;
+  opacity: 1;
+  background-color: transparent;
+  overflow: hidden;
+  gap: 20px;
+  margin-top: 70px;
+}
+/* Auction Card Styling */
+.auction-card {
+  background-color: transparent;
+  border-radius: 20px 0px 0px 0px;
+  padding: 20px 20px;
+  border: 1px solid #262840;
+  border-radius: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.auction-image {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.auction-details {
+  padding: 10px;
+  display: flex;
+}
+.auction-title {
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  margin-right: 10px;
+  text-decoration: underline;
+  color: #ffffff;
+}
+.price {
+  background: #514cff26;
+  border-radius: 4px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.price p {
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #514cff;
+  white-space: nowrap;
+  padding: 10px 12px;
+}
+
+.time-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #fff;
+}
+.clock-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+/* Divider */
+.divider {
+  border: none;
+  border-top: 1px solid #eaeaea;
+  width: 350px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Auction Footer Styling */
+.auction-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #7780a1;
+}
+.auction-avatars {
+  display: flex;
+  align-items: center;
+}
+.auction-avatar {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #060714;
+}
+.bidding-info {
+  font-size: 0.9rem;
+  color: #7780a1;
+}
+.love-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.love-icon {
+  width: 20px;
+  height: 20px;
+}
