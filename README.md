@@ -4,11 +4,13 @@
 This project is a React-based application with a dynamic layout featuring various sections such as a top bar, page slider, and details pages. It includes a modular structure with reusable components and CSS styling for a clean and interactive user interface.
 
 ## Features
-- **Topbar**: Contains navigation links and buttons for user interaction.
-- **Page with Slider**: A horizontally scrolling image carousel.
-- **Details Section**: Displays various content like overlines, images, and buttons.
-- **Responsive Design**: Styled to work on different screen sizes.
-- **Modular Components**: Components are structured for easy maintainability and scalability.
+- **Topbar:** Navigation links to different sections of the app like Auctions, Roadmap, Discover, and Community.
+- **MainSection:** Displays sections like "NON FUNGIBLE TOKENS", NFT content, and experiences with accompanying images.
+- **LatestAuctions:** Auction items with auction details, including time left, bids, likes, and more.
+- **Details Section:** Displays detailed content such as headers, images, and interactive buttons.
+- **PageWithSlider:** A section where images scroll horizontally to showcase featured content.
+- **PopularAuctions:** A section of the most popular live auctions on your platform.
+- **Footer:** Includes navigation links, social media icons, and a newsletter sign-up form.
 
 ## Prerequisites
 To run this project, you need the following software installed:
@@ -21,4 +23,25 @@ To run this project, you need the following software installed:
 To clone the repository, run the following command in your terminal:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+https://github.com/halimaarh/TobamsGroup.git
+
+### 2.Navigate to the project directory:
+cd your-repository-name
+then npm install
+
+### 2.Run the application
+npm run start
+
+### How to use the README:
+- **Description**: A general overview of the project.
+- **Features**: Highlight the main features available in the project.
+- **Prerequisites**: Necessary software to run the project.
+- **Getting Started**: Step-by-step guide on how to clone, install, and run the project.
+
+You can modify this `README.md` based on your project's needs!
+
+Contact
+For questions or contributions, feel free to open an issue or submit a pull request.
+
+
+
