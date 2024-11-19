@@ -1,7 +1,7 @@
 # TFW
 
 ## Description
-This project is a React-based application with a dynamic layout featuring various sections such as a top bar, page slider, and details pages. It includes a modular structure with reusable components and CSS styling for a clean and interactive user interface.
+TFW is a React-based application built with Vite, offering a dynamic and interactive user interface. The app features modular components, clean CSS styling, and various sections such as a top bar, page slider, auction listings, and details pages. It's designed for a smooth and engaging user experience.
 
 ## Features
 - **Topbar:** Navigation links to different sections of the app like Auctions, Roadmap, Discover, and Community.
@@ -26,11 +26,12 @@ To clone the repository, run the following command in your terminal:
 https://github.com/halimaarh/TobamsGroup.git
 
 ### 2.Navigate to the project directory:
-cd your-repository-name
-then npm install
+cd TobamsGroup
+npm install
 
 ### 2.Run the application
-npm run start
+npm run dev
+The application will be available at http://localhost:5173
 
 ### How to use the README:
 - **Description**: A general overview of the project.
@@ -38,10 +39,8 @@ npm run start
 - **Prerequisites**: Necessary software to run the project.
 - **Getting Started**: Step-by-step guide on how to clone, install, and run the project.
 
-You can modify this `README.md` based on your project's needs!
-
 Contact
-For questions or contributions, feel free to open an issue or submit a pull request.
+If you have any questions, suggestions, or contributions, feel free to open an issue or submit a pull request on the GitHub repository.
 
 
 
