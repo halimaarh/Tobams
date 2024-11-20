@@ -3,60 +3,85 @@
 ## Description
 TFW is a React-based application built with Vite, offering a dynamic and interactive user interface. The app features modular components, clean CSS styling, and various sections such as a top bar, page slider, auction listings, and details pages. It's designed for a smooth and engaging user experience.
 
-Project Structure
-src/
-The src folder is the main directory holding the core of the application, including:
+## 🗂️ Project Structure
 
-Components: Contains all React components, each with their own functionality and styling.
-Assets: Includes folders for icons, images, logos, and slides.
-Components
-Each component resides in its own folder within the components directory, and includes:
+### **`src/`**
+The `src` folder contains the core of the application, organized as follows:
 
-Topbar
+- **`components/`**: All React components, each with its functionality and styling.
+- **`assets/`**: Includes folders for icons, images, logos, and slides.
 
-Navigation links to different sections of the app, such as Auctions, Roadmap, Discover, and Community.
-MainSection
+---
 
-Displays sections like "NON FUNGIBLE TOKENS" and showcases NFT-related content and experiences with accompanying images.
-LatestAuctions
+## 🧩 Components
 
-Displays auction items with details like:
-Time left
-Number of bids
-Likes and more
-Includes an AuctionCard component, which holds information about individual cards and auctions.
-DetailsSection
+Each component resides in its own folder within the `components` directory. Below is an overview:
 
-Displays detailed content, including headers, images, and interactive buttons.
-PageWithSlider
+### **1. Topbar**
+- Navigation links to different sections of the app:
+  - Auctions
+  - Roadmap
+  - Discover
+  - Community
 
-A horizontal scrolling section to showcase featured content through images.
-PopularAuctions
+### **2. MainSection**
+- Displays sections like **"NON FUNGIBLE TOKENS"**.
+- Showcases NFT content and experiences with accompanying images.
 
-Highlights the most popular live auctions on the platform.
-Footer
+### **3. LatestAuctions**
+- Features auction items with details such as:
+  - Time remaining
+  - Number of bids
+  - Likes
+- Includes an **AuctionCard** component that displays information about individual cards and auctions.
 
-Includes:
-Navigation links
-Social media icons
-Newsletter sign-up form
-CSS and Data Files
-Each component has its own CSS file for styling.
-Some components have additional JavaScript files that hold related data:
-Auction Cards: Contains data about auction items for the LatestAuctions component.
-DetailsSection: Includes additional data for detailed content in the DetailsSection component.
-Assets
-The assets folder contains:
+### **4. DetailsSection**
+- Displays detailed content including:
+  - Headers
+  - Images
+  - Interactive buttons
 
-Icons: Various icons used across the app.
-Images: High-quality images for different sections.
-Logos: Branding assets like logos.
-Slides: Images for the horizontal slider in the PageWithSlider component.
-Features
-Responsive Design: Fully optimized for different screen sizes.
-Reusable Components: Modular architecture for easy reuse and updates.
-Dynamic Content: Interactive elements like auction cards and sliders.
-Rich Media: Includes visually appealing images, icons, and animations.
+### **5. PageWithSlider**
+- A horizontally scrolling section showcasing featured content through images.
+
+### **6. PopularAuctions**
+- Highlights the most popular live auctions on the platform.
+
+### **7. Footer**
+- Includes:
+  - Navigation links
+  - Social media icons
+  - Newsletter sign-up form
+
+---
+
+## 🎨 CSS and Data Files
+
+- Each component has its own **CSS file** for styling.
+- Some components include additional **JavaScript files** for data handling:
+  - **Auction Cards**: Holds data for the `LatestAuctions` component.
+  - **DetailsSection**: Contains data for detailed content displayed in the `DetailsSection`.
+
+---
+
+## 📁 Assets
+
+The `assets` folder contains:
+- **`icons/`**: Various icons used across the app.
+- **`images/`**: High-quality images for different sections.
+- **`logos/`**: Branding assets like logos.
+- **`slides/`**: Images for the horizontal slider in the `PageWithSlider` component.
+
+---
+
+## 🌟 Features
+
+- **Responsive Design**: Optimized for all screen sizes.
+- **Reusable Components**: Modular architecture for easy reuse and updates.
+- **Dynamic Content**: Interactive elements like auction cards and sliders.
+- **Rich Media**: Includes visually appealing images, icons, and animations.
+
+---
 
 ## Prerequisites
 To run this project, you need the following software installed:
