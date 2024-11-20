@@ -1,10 +1,9 @@
 .latest-auctions {
-  max-width: 1200px;
-  margin-top: 70px;
+  margin-top: 130px;
   padding: 20px;
   background-color: transparent;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 .header {
   color: #fff;
@@ -13,9 +12,13 @@
   font-weight: 600;
   line-height: 45.36px;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  margin-left: 340px;
+  margin-bottom: 70px;
+  margin-left: 50px;
+}
+.auction-carousel {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 .auction-container {
   display: flex;
@@ -23,27 +26,51 @@
   background-color: transparent;
   overflow: hidden;
   gap: 20px;
-  margin-top: 70px;
+  width: 80%;
+  margin: 0 auto;
 }
 /* Auction Card Styling */
 .auction-card {
+  flex: 0 0 calc(25% - 20px);
   background-color: transparent;
-  border-radius: 20px 0px 0px 0px;
-  padding: 20px 20px;
+  padding: 20px;
   border: 1px solid #262840;
   border-radius: 10px;
-  overflow: hidden;
-  border-radius: 10px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 .auction-image {
-  width: 100%;
-  height: 520px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   border-radius: 10px;
+}
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #262840cc;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-arrow {
+  left: 10%;
+}
+.right-arrow {
+  right: 10%;
 }
 .auction-details {
   padding: 10px;
   display: flex;
+  text-align: left;
 }
 .auction-title {
   font-family: "Sora", sans-serif;
@@ -57,8 +84,9 @@
 .price {
   background: #514cff26;
   border-radius: 4px;
-  margin-top: 30px;
+  padding: 5px 10px;
   display: inline-block;
+  margin-left: 30px;
 }
 .price p {
   font-family: "Sora", sans-serif;
@@ -69,7 +97,6 @@
   white-space: nowrap;
   padding: 10px 12px;
 }
-
 .time-info {
   display: flex;
   align-items: center;
@@ -88,16 +115,15 @@
   border: none;
   border-top: 1px solid #eaeaea;
   width: 350px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 15px 20px 0 20px;
 }
 
 /* Auction Footer Styling */
 .auction-footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 15px;
+  gap: 10px;
   font-size: 0.9rem;
   color: #7780a1;
 }
@@ -108,13 +134,13 @@
 .auction-avatar {
   width: 30px;
   height: 30px;
-  border: 1px solid #060714;
 }
 .bidding-info {
   font-size: 0.9rem;
   color: #7780a1;
 }
 .love-info {
+  margin-left: 30px;
   display: flex;
   align-items: center;
   gap: 5px;

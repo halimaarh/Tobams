@@ -126,17 +126,24 @@ button:hover {
   text-align: left;
   color: #fff;
 }
+.sale-item-container {
+  display: flex;
+}
 .sale-item {
   display: inline-block;
   text-align: center;
+  width: 200px;
   margin: 1rem;
   border-radius: 20px;
   background: transparent;
   border: 1px solid #262840;
 }
 .sale-image {
+  width: 170px;
+  height: 330px;
   border-radius: 8px;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 .sale-text {
   font-family: "Sora";
@@ -146,11 +153,16 @@ button:hover {
   letter-spacing: 0.2px;
   text-align: left;
   color: #fff;
+  margin-left: 10px;
 }
 .sale-info {
   display: flex;
   align-items: center;
-  margin: 1rem 0;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.sale-info .clock-icon {
+  margin-left: 10px;
 }
 .sale-info span {
   font-family: "Inter";
@@ -160,36 +172,38 @@ button:hover {
   letter-spacing: 0.2px;
   text-align: left;
   color: #fff;
-  margin-left: 10px;
+  margin-left: 2px;
 }
 .price-box {
   color: #514cff;
   background: #514cff26;
   padding: 0.3rem 0.8rem;
   border-radius: 4px;
-  margin-left: 70px;
-  margin-right: 20px;
-  font-family: Sora;
+  margin-left: 20px;
+  font-family: "Sora";
   font-size: 13px;
   font-weight: 600;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.1px;
 }
 .divider {
   border: 1px solid #262840;
+  width: 150px;
 }
 .last {
   display: flex;
-  margin-top: 10px;
-  gap: 40px;
+  margin-top: 20px;
+  gap: 10px;
 }
 .bidding-info {
   font-family: "Inter";
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0.20000000298023224px;
+  letter-spacing: 0.1px;
   text-align: left;
   color: #7780a1;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 .love-icon {
   width: 20px;

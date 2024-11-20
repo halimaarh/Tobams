@@ -2,10 +2,10 @@ import React from "react";
 import "./PopularAuct.css";
 import AuctionCard from "../AuctionCard/AuctionCard";
 import auctionsData from "../AuctionCard/AuctionData";
-import stat1 from "../../assets/Images/stat1.png";
-import stat2 from "../../assets/Images/stat2.png";
-import stat3 from "../../assets/Images/stat3.png";
-import stat4 from "../../assets/Images/stat4.png";
+import stat1 from "../../assets/Icons/stat1.png";
+import stat2 from "../../assets/Icons/stat2.png";
+import stat3 from "../../assets/Icons/stat3.png";
+import stat4 from "../../assets/Icons/stat4.png";
 
 const PopularAuctions = () => {
   return (
@@ -25,7 +25,7 @@ const PopularAuctions = () => {
       </div>
 
       {/* Auctions Section */}
-      <div className="auctions">
+      <div className="auctions-section">
         {auctionsData.map((auction) => (
           <AuctionCard
             key={auction.id}
@@ -41,7 +41,7 @@ const PopularAuctions = () => {
       {/* Show More Button */}
       <button className="show-more">Show Me More</button>
 
-      <div className="auction-divider"></div>
+      <div className="auction-div"></div>
 
       {/* Footer Stats */}
       <div className="footer-stats">

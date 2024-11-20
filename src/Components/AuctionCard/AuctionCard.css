@@ -1,4 +1,4 @@
-.auction-card {
+.auction-card-container {
   background: transparent;
   border: 1px solid #000;
   border-radius: 8px;
@@ -6,12 +6,14 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-.auction-image {
+
+.auction-card-image {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 10px;
 }
-.auction-title {
+
+.auction-card-title {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -23,7 +25,8 @@
   text-align: left;
   color: #fff;
 }
-.auction-details {
+
+.auction-card-details {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,19 +34,21 @@
   margin-bottom: 15px;
   margin-top: 20px;
 }
-.auction-details .time {
+
+.auction-card-details .auction-card-time {
   font-family: "Inter";
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0.20000000298023224px;
+  letter-spacing: 0.2px;
   color: #fff;
   margin-right: 40px;
 }
-.price {
+
+.auction-card-price {
   color: #28a745;
   background: #514cff26;
-  padding: 6px 10px 6px 10px;
+  padding: 6px 10px;
   gap: 10px;
   border-radius: 4px;
 
@@ -55,19 +60,20 @@
   color: #514cff;
 }
 
-hr {
+.auction-card-divider {
   border: none;
   border-top: 1px solid #eee;
   margin: 15px 0;
 }
 
-.watching {
+.auction-card-watching {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
 }
-.watching p {
+
+.auction-card-watchers {
   font-family: "Inter";
   font-size: 14px;
   font-weight: 400;
@@ -75,4 +81,9 @@ hr {
   letter-spacing: 0.2px;
   text-align: left;
   color: #7780a1;
+}
+
+.auction-card-love-icon {
+  width: 20px;
+  height: 20px;
 }

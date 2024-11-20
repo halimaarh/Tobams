@@ -1,11 +1,11 @@
 import React from "react";
 import "./Footer.css";
-import footerLogo from "../../assets/Images/footerIcon.png";
-import flogo1 from "../../assets/Images/flogo1.png";
-import flogo2 from "../../assets/Images/flogo2.png";
-import flogo3 from "../../assets/Images/flogo3.png";
-import flogo4 from "../../assets/Images/flogo4.png";
-import flogo5 from "../../assets/Images/flogo5.png";
+import footerLogo from "../../assets/Logos/footerlogo.png";
+import ficon1 from "../../assets/Icons/ficon1.png";
+import ficon2 from "../../assets/Icons/ficon2.png";
+import ficon3 from "../../assets/Icons/ficon3.png";
+import ficon4 from "../../assets/Icons/ficon4.png";
+import ficon5 from "../../assets/Icons/ficon5.png";
 
 const Footer = () => {
   return (
@@ -32,11 +32,11 @@ const Footer = () => {
         </div>
         <button className="account-button">My Account</button>
         <div className="footer-icons">
-          <img src={flogo1} alt="Icon 1" className="footer-icon" />
-          <img src={flogo2} alt="Icon 2" className="footer-icon" />
-          <img src={flogo3} alt="Icon 3" className="footer-icon" />
-          <img src={flogo4} alt="Icon 4" className="footer-icon" />
-          <img src={flogo5} alt="Icon 5" className="footer-icon" />
+          <img src={ficon1} alt="Icon 1" className="footer-icon" />
+          <img src={ficon2} alt="Icon 2" className="footer-icon" />
+          <img src={ficon3} alt="Icon 3" className="footer-icon" />
+          <img src={ficon4} alt="Icon 4" className="footer-icon" />
+          <img src={ficon5} alt="Icon 5" className="footer-icon" />
         </div>
       </div>
 

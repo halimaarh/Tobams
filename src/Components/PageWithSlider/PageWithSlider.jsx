@@ -4,21 +4,21 @@ import user1 from "../../assets/Images/user1.png";
 import user2 from "../../assets/Images/user2.png";
 import user3 from "../../assets/Images/user3.png";
 import user4 from "../../assets/Images/user4.png";
-import slide1 from "../../assets/Images/slide1.png";
-import slide2 from "../../assets/Images/slide2.png";
-import slide3 from "../../assets/Images/slide3.png";
-import slide4 from "../../assets/Images/slide4.png";
-import slide5 from "../../assets/Images/slide5.png";
-import slide6 from "../../assets/Images/slide6.png";
-import slide7 from "../../assets/Images/slide7.png";
-import slide8 from "../../assets/Images/slide8.png";
-import slide9 from "../../assets/Images/slide9.png";
-import slide10 from "../../assets/Images/slide10.png";
-import slide11 from "../../assets/Images/slide11.png";
-import slide12 from "../../assets/Images/slide12.png";
-import slide13 from "../../assets/Images/slide13.png";
-import slide14 from "../../assets/Images/slide14.png";
-import slide15 from "../../assets/Images/slide15.png";
+import slide1 from "../../assets/Slides/slide1.png";
+import slide2 from "../../assets/Slides/slide2.png";
+import slide3 from "../../assets/Slides/slide3.png";
+import slide4 from "../../assets/Slides/slide4.png";
+import slide5 from "../../assets/Slides/slide5.png";
+import slide6 from "../../assets/Slides/slide6.png";
+import slide7 from "../../assets/Slides/slide7.png";
+import slide8 from "../../assets/Slides/slide8.png";
+import slide9 from "../../assets/Slides/slide9.png";
+import slide10 from "../../assets/Slides/slide10.png";
+import slide11 from "../../assets/Slides/slide11.png";
+import slide12 from "../../assets/Slides/slide12.png";
+import slide13 from "../../assets/Slides/slide13.png";
+import slide14 from "../../assets/Slides/slide14.png";
+import slide15 from "../../assets/Slides/slide15.png";
 
 const PageWithSlider = () => {
   // Using useRef to access the slider DOM element directly

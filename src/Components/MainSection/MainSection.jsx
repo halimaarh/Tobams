@@ -2,16 +2,16 @@ import React from "react";
 import "./MainSection.css";
 import Frame from "../../assets/Images/Frame.png";
 import Frame2 from "../../assets/Images/Frame2.png";
-import Ritter from "../../assets/Images/Ritter.png";
-import Nike from "../../assets/Images/Nike.png";
-import Adidas from "../../assets/Images/Adidas.png";
-import Holland from "../../assets/Images/Holland.png";
+import Ritter from "../../assets/Logos/Ritter.png";
+import Nike from "../../assets/Logos/Nike.png";
+import Adidas from "../../assets/Logos/Adidas.png";
+import Holland from "../../assets/Logos/Holland.png";
 import one from "../../assets/Images/Square1.png";
 import two from "../../assets/Images/Square2.png";
 import three from "../../assets/Images/Square3.png";
 import four from "../../assets/Images/Square4.png";
 import fifth from "../../assets/Images/Square5.png";
-import search from "../../assets/Images/SearchIcon.png";
+import search from "../../assets/Icons/SearchIcon.png";
 
 const Main = () => {
   return (

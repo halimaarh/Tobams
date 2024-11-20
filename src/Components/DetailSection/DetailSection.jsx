@@ -1,18 +1,19 @@
 import React from "react";
-import "./Details.css";
+import "./DetailSection.css";
 import topImage1 from "../../assets/Images/topImage1.png";
 import bottomImage1 from "../../assets/Images/bottomImage1.png";
 import topImage2 from "../../assets/Images/topImage2.png";
 import bottomImage2 from "../../assets/Images/bottomImage2.png";
-import clockIcon from "../../assets/Images/Vector.png";
-import loveIcon from "../../assets/Images/Vector2.png";
+import clockIcon from "../../assets/Icons/Vector.png";
+import loveIcon from "../../assets/Icons/Vector3.png";
 import itemImage from "../../assets/Images/item.png";
+import itemImage2 from "../../assets/Images/item2.png";
 import midImg from "../../assets/Images/midImg.png";
-import nftData from "../Details/Data";
-import Icon from "../../assets/Images/Icon.png";
-import Icon2 from "../../assets/Images/Icon2.png";
+import nftData from "../DetailSection/Data";
+import Icon from "../../assets/Icons/Icon.png";
+import Icon2 from "../../assets/Icons/Icon2.png";
 
-const Details = () => {
+const DetailSection = () => {
   return (
     <div className="details">
       {/* First Section: Main content with overline, title, and buttons */}
@@ -50,21 +51,40 @@ const Details = () => {
               Check out the,
               <br /> hottest sale offers
             </h2>
-            <div className="sale-item">
-              <img src={itemImage} alt="Item" className="sale-image" />
-              <p className="sale-text">
-                Fames habitasse risus
-                <br /> ultricies tortor sit
-              </p>
-              <div className="sale-info">
-                <img src={clockIcon} alt="Clock" className="clock-icon" />
-                <span>22:39</span>
-                <div className="price-box">2.20 ETH</div>
+            <div className="sale-item-container">
+              <div className="sale-item">
+                <img src={itemImage} alt="Item" className="sale-image" />
+                <p className="sale-text">
+                  Fames habitasse
+                  <br /> ultricies tortor
+                </p>
+                <div className="sale-info">
+                  <img src={clockIcon} alt="Clock" className="clock-icon" />
+                  <span>22:39</span>
+                  <div className="price-box">2.20 ETH</div>
+                </div>
+                <hr className="divider" />
+                <div className="last">
+                  <p className="bidding-info">101 people are bidding</p>
+                  <img src={loveIcon} alt="Love" className="love-icon" />
+                </div>
               </div>
-              <hr className="divider" />
-              <div className="last">
-                <p className="bidding-info">101 people are bidding</p>
-                <img src={loveIcon} alt="Love" className="love-icon" />
+              <div className="sale-item">
+                <img src={itemImage2} alt="Item" className="sale-image" />
+                <p className="sale-text">
+                  Fames habitasse
+                  <br /> ultricies tortor
+                </p>
+                <div className="sale-info">
+                  <img src={clockIcon} alt="Clock" className="clock-icon" />
+                  <span>22:39</span>
+                  <div className="price-box">2.20 ETH</div>
+                </div>
+                <hr className="divider" />
+                <div className="last">
+                  <p className="bidding-info">101 people are bidding</p>
+                  <img src={loveIcon} alt="Love" className="love-icon" />
+                </div>
               </div>
             </div>
           </div>
@@ -173,4 +193,4 @@ const Details = () => {
   );
 };
 
-export default Details;
+export default DetailSection;

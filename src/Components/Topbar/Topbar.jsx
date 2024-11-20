@@ -1,6 +1,6 @@
 import React from "react";
 import "./Topbar.css";
-import mainlogo from "../../assets/Images/Logo.png";
+import mainlogo from "../../assets/Logos/logo.png";
 
 const Topbar = () => {
   return (
